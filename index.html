@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM Culture | Моя страсть к японским автомобилям</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#e63946">
+</head>
+<body>
+
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <span class="logo-jp">JDM</span>
+                <span class="logo-text">Legacy</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#history" class="nav__link">История</a></li>
+                    <li class="nav__item"><a href="#legends" class="nav__link">Легенды</a></li>
+                    <li class="nav__item"><a href="#cars" class="nav__link">Автомобили</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Галерея</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ГЛАВНЫЙ ЭКРАН -->
+    <section class="hero" style="background-image: url('hero-bg.jpg');">
+        <div class="container hero__content">
+            <h1 class="hero__title">
+                <span class="hero__title-jp">Japanese Domestic Market</span> 
+                Моя любовь к JDM культуре
+            </h1>
+            <p class="hero__subtitle">История, легенды и автомобили, которые вдохновляют меня каждый день.</p>
+            <a href="#about" class="btn">Узнать мою историю</a>
+        </div>
+        <div class="hero__overlay"></div>
+    </section>
+
+    <!-- ИСТОРИЯ -->
+    <section id="history" class="section history">
+        <div class="container">
+            <h2 class="section__title">История JDM <span class="section__title-jp">歴史</span></h2>
+            <div class="timeline">
+                <div class="timeline__item">
+                    <div class="timeline__year">1970-1980</div>
+                    <div class="timeline__content">
+                        <h3>Зарождение легенд</h3>
+                        <p>Эпоха первых настоящих спортивных автомобилей. Появляются Nissan Skyline GT-R (KPGC10), Toyota Celica и Mazda Savanna RX-3.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__year">1980-1990</div>
+                    <div class="timeline__content">
+                        <h3>Золотая эра</h3>
+                        <p>Время технологий и мощности. Появляются культовые модели: Toyota Supra, Mazda RX-7 FC, Nissan 300ZX.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__year">1990-2000</div>
+                    <div class="timeline__content">
+                        <h3>Мировое господство</h3>
+                        <p>Расцвет JDM культуры. Nissan Skyline GT-R получает прозвище "Godzilla". Появляются Mazda RX-7 FD, Honda NSX, Toyota Supra A80.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__year">2000+</div>
+                    <div class="timeline__content">
+                        <h3>Современность</h3>
+                        <p>Новая волна интереса к классике. Рестомоды, легендарные аукционы. Появление новых моделей, таких как Toyota GR Yaris.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ЛЕГЕНДЫ -->
+    <section id="legends" class="section legends">
+        <div class="container">
+            <h2 class="section__title">Легенды JDM <span class="section__title-jp">伝説の人々</span></h2>
+            <div class="legends__grid">
+                <div class="legend-card">
+                    <img src="keiichi.jpg" alt="Кейичи Цучия" class="legend-card__img">
+                    <div class="legend-card__content">
+                        <h3 class="legend-card__title">Кейичи Цучия</h3>
+                        <p class="legend-card__subtitle">Король дрифта</p>
+                        <p class="legend-card__desc">Легендарный японский гонщик, популяризировал дрифт по всему миру. Известен как "Дрифт-король".</p>
+                    </div>
+                </div>
+                <div class="legend-card">
+                    <img src="smokey.jpg" alt="Смоуки Нагата" class="legend-card__img">
+                    <div class="legend-card__content">
+                        <h3 class="legend-card__title">Смоуки Нагата</h3>
+                        <p class="legend-card__subtitle">Основатель Option</p>
+                        <p class="legend-card__desc">Создатель культового журнала Option и инициатор Tokyo Auto Salon.</p>
+                    </div>
+                </div>
+                <div class="legend-card">
+                    <img src="ayrton.jpg" alt="Айртон Сенна" class="legend-card__img">
+                    <div class="legend-card__content">
+                        <h3 class="legend-card__title">Айртон Сенна</h3>
+                        <p class="legend-card__subtitle">Легенда NSX</p>
+                        <p class="legend-card__desc">Помогал разрабатывать управляемость Honda NSX. Трехкратный чемпион F1.</p>
+                    </div>
+                </div>
+                <div class="legend-card">
+                    <img src="yoshida.jpg" alt="Хироюки Йошида" class="legend-card__img">
+                    <div class="legend-card__content">
+                        <h3 class="legend-card__title">Хироюки Йошида</h3>
+                        <p class="legend-card__subtitle">Пионер дрифта</p>
+                        <p class="legend-card__desc">Известен стилем "быстрые руки". Участник легендарного видео Pluspy.</p>
+                    </div>
+                </div>
+                <div class="legend-card">
+                    <img src="nagano.jpg" alt="Есикадзу Нагано" class="legend-card__img">
+                    <div class="legend-card__content">
+                        <h3 class="legend-card__title">Есикадзу Нагано</h3>
+                        <p class="legend-card__subtitle">Король Honda</p>
+                        <p class="legend-card__desc">Владелец легендарного тюнинг-ателье Mugen.</p>
+                    </div>
+                </div>
+                <div class="legend-card">
+                    <img src="takaya.png" alt="Нобухико Такая" class="legend-card__img">
+                    <div class="legend-card__content">
+                        <h3 class="legend-card__title">Нобухико Такая</h3>
+                        <p class="legend-card__subtitle">Главный инженер Mazda</p>
+                        <p class="legend-card__desc">Создатель Mazda MX-5 (Miata) - самого продаваемого родстера.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- АВТОМОБИЛИ -->
+    <section id="cars" class="section cars">
+        <div class="container">
+            <h2 class="section__title">Легендарные автомобили <span class="section__title-jp">伝説の車</span></h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="r34.jpg" alt="Nissan Skyline" class="card__img">
+                    <div class="card__content">
+                        <h3 class="card__title">Nissan Skyline R34</h3>
+                        <p class="card__desc">Легендарный RB26DETT, система ATTESA E-TS. Прозвище "Godzilla".</p>
+                        <div class="card__tag">#Godzilla</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="rx7.jpg" alt="Mazda RX-7" class="card__img">
+                    <div class="card__content">
+                        <h3 class="card__title">Mazda RX-7 FD3S</h3>
+                        <p class="card__desc">Роторный двигатель и совершенные линии. Король извилистых дорог.</p>
+                        <div class="card__tag">#Rotary</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="supra.jpg" alt="Toyota Supra" class="card__img">
+                    <div class="card__content">
+                        <h3 class="card__title">Toyota Supra A80</h3>
+                        <p class="card__desc">Монстр тюнинга. Мотор 2JZ-GTE выдерживает безумные мощности.</p>
+                        <div class="card__tag">#2JZ</div>
+                    </div>
+                </div>
+                <div class="card">
+                     <img src="nsx.jpg" alt="Honda NSX" class="card__img">
+                     <div class="card__content">
+                        <h3 class="card__title">Honda NSX</h3>
+                        <p class="card__desc">Японский ответ Ferrari. Создан при участии Айртона Сенны.</p>
+                        <div class="card__tag">#NSX</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="22b.jpg" alt="Subaru 22B" class="card__img">
+                    <div class="card__content">
+                        <h3 class="card__title">Subaru 22B STI</h3>
+                        <p class="card__desc">Омологационная версия раллийного автомобиля. Самый желанный Impreza.</p>
+                        <div class="card__tag">#22B</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="evo6.jpg" alt="Mitsubishi Evo 6" class="card__img">
+                    <div class="card__content">
+                        <h3 class="card__title">Mitsubishi Evo VI</h3>
+                        <p class="card__desc">Последняя эволюция Томми Мякинена. Король ралли.</p>
+                        <div class="card__tag">#Evo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ОБО МНЕ -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about__content">
+                <h2 class="section__title">Обо мне <span class="section__title-jp">私について</span></h2>
+                <div class="about__grid">
+                    <div class="about__text">
+                        <p class="about__paragraph">
+                            Привет! Меня зовут Рина, и я создала этот сайт, потому что JDM культура — это не просто машины для меня. Это страсть, которая красит мою жизнь.
+                        </p>
+                        <p class="about__paragraph">
+                            Всё началось с просмотра "Тройного форсажа: Токийский дрифт". Звук роторного двигателя, запах бензина на гоночных трассах — всё это стало частью меня.
+                        </p>
+                        <div class="about__signature">
+                            С любовью к японскому автопрому,<br>
+                            <span class="about__name">Рина</span>
+                        </div>
+                    </div>
+                    <div class="about__image">
+                        <img src="me.jpg" alt="Мое фото" class="about__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОДВАЛ -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__text">© 2024 JDM Legacy. Создано с любовью к JDM культуре</p>
+            <p class="footer__jp">日本の車は永遠です</p>
+        </div>
+    </footer>
+
+    <!-- МУЗЫКА -->
+    <audio id="bgMusic" loop>
+        <source src="jdm-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Кнопка музыки -->
+    <div class="music-btn" id="musicToggle">
+        <span class="music-btn__icon">🔊</span>
+    </div>
+
+    <script>
+        const audio = document.getElementById('bgMusic');
+        const musicBtn = document.getElementById('musicToggle');
+        const icon = musicBtn.querySelector('.music-btn__icon');
+        
+        audio.volume = 0.5;
+        
+        musicBtn.addEventListener('click', function() {
+            if (audio.paused) {
+                audio.play();
+                icon.textContent = '🔊';
+                musicBtn.classList.add('playing');
+            } else {
+                audio.pause();
+                icon.textContent = '🔇';
+                musicBtn.classList.remove('playing');
+            }
+        });
+        
+        document.addEventListener('click', function once() {
+            audio.play().then(() => {
+                icon.textContent = '🔊';
+                musicBtn.classList.add('playing');
+            }).catch(() => {
+                icon.textContent = '🔇';
+            });
+            document.removeEventListener('click', once);
+        }, { once: true });
+    </script>
+
+</body>
+</html>

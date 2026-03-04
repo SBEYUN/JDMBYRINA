@@ -1,0 +1,10 @@
+{
+  "name": "JDM Culture",
+  "short_name": "JDM",
+  "description": "Сайт о JDM культуре",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#e63946",
+  "icons": []
+}
